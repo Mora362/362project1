@@ -1,1 +1,1 @@
-# project_1
+# lab_2

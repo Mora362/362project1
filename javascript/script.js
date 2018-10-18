@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 
 console.log('the button is working');
 

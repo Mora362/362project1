@@ -205,10 +205,7 @@ button,
  * Correct the padding in Firefox.
  */
 
-fieldset {
-    border-radius: 5px;
-    padding: 20px;
-}
+
 
 /**
  * 1. Correct the text wrapping in Edge and IE.

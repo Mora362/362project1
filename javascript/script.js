@@ -1,4 +1,4 @@
-<script>
+
 
 console.log('the button is working');
 
@@ -9,4 +9,3 @@ function submit() {
 
 document.getElementById('submit').addEventListener('click', submit);
 
-</script>

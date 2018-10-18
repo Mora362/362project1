@@ -341,7 +341,6 @@ h2,
 h3,
 p {
   font-family:Arial;
-  font-weight: 700;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -361,8 +360,10 @@ h3 {
   font-size: 2rem;
 }
 
-p{
+a,
+p {
   font-size: 1rem;
+  color: white;
 }
 
 label { display:block;

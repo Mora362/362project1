@@ -396,6 +396,12 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+form {
+    border-radius: 5px;
+    background-color: ##05058c;
+    padding: 20px;
+}
+
 @media screen and (min-width: 320px) and (max-width:580px) {
     /* For mobile phones: */
     .stack{

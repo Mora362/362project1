@@ -45,6 +45,13 @@
  .stack {
      margin: 5% 25% 5% 25%;
      display: inline-block;
+     color: white;
+     font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+     font-size: 41px; 
+     font-style: italic; 
+     font-variant: normal; 
+     font-weight: 400; 
+     line-height: 41px; 
 }
  input[type=text], select {
      width: 100%;

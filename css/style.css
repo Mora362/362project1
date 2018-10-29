@@ -23,7 +23,6 @@
      font-weight: bold;
 }
   
-//added font style 3 layers deep
   h1 {
    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
    font-size: 41px; 
@@ -33,7 +32,6 @@
    line-height: 41px; 
    color: white; 
    display: inline-block;
-
 }
 
  a, p {

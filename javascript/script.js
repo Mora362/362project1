@@ -1,8 +1,23 @@
+var submitBtn = document.getElementById('submit');
 
-function submit() {
-         alert("form has been submitted!");
+function submitBtntester() {
+  alert("Thank you for the submission!")
 
-}
-document.getElementById('submit').addEventListener('click', submit);
 
-	
+  var checkPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  //stores the form data for use
+  var fname = document.getElementById('fname');
+  var lname = document.getElementById('lname');
+  var email = document.getElementById('email');
+  var phone = document.getElementById('number');
+  var birth = document.getElementById('bday');
+
+  var checkEmail = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+
+  if (checkEmail.test(email.value)) {
+    submitForm();
+  } else {
+    alert("You need to enter a valid email address")
+  }
+
+};

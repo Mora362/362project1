@@ -1,9 +1,7 @@
 var submitBtn = document.getElementById('submit');
 
 function submitBtntester() {
-  alert("Thank you for the submission!")
-
-
+  
   var checkPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   //stores the form data for use
   var fname = document.getElementById('fname');
@@ -16,6 +14,8 @@ function submitBtntester() {
 
   if (checkEmail.test(email.value)) {
     submitForm();
+      alert("Thank you for the submission!")
+
   } else {
     alert("You need to enter a valid email address")
   }

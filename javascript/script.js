@@ -13,8 +13,7 @@ function submitBtntester() {
   var checkEmail = /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
 
   if (checkEmail.test(email.value)) {
-    submitForm();
-      alert("Thank you for the submission!")
+    alert("Thank you for the submission!")
 
   } else {
     alert("You need to enter a valid email address")

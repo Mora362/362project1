@@ -14,9 +14,8 @@ function submitBtntester() {
 
   if (checkEmail.test(email.value)) {
     alert("Thank you for the submission!")
-
   } else {
     alert("You need to enter a valid email address")
   }
-
+//end of execution
 };
